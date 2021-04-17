@@ -12,7 +12,7 @@ export default class Home extends Component {
             // LTI Required Parameters
             lti_message_type: "basic-lti-launch-request",
             lti_version: "LTI-1p0",
-            resource_link_id: "",
+            resource_link_id: "---RESOURCE-LINK-ID---",
             // OAuth 1.0a Required Parameters
             oauth_consumer_key: "---CONSUMER KEY---",
             oauth_nonce: btoa(timestamp),
